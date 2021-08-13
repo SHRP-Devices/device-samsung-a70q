@@ -133,6 +133,6 @@ SHRP_EDL_MODE := 1
 SHRP_EXTERNAL := /external_sd
 SHRP_INTERNAL := /sdcard
 SHRP_OTG := /usb_otg
-SHRP_FLASH := true
+SHRP_FLASH := 1
 SHRP_REC := /dev/block/bootdevice/by-name/recovery
 SHRP_NO_SAR_AUTOMOUNT := true
