@@ -6,7 +6,7 @@ on:
         description: 'set this to true if you wanna push to sf (all small)'
         required: true
 env:
-  MANIFEST: "repo init -u git://github.com/SHRP/platform_manifest_twrp_omni.git -b v3_9.0"
+  MANIFEST: "git://github.com/SHRP/platform_manifest_twrp_omni.git -b v3_9.0"
   # Recovery Manifest URL with -b branch
   DT_LINK: "https://github.com/SHRP-Devices/device-samsung-a70q"
   # Your Device Tree Link
