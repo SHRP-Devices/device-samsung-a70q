@@ -6,17 +6,17 @@ on:
         description: 'set this to true if you wanna push to sf (all small)'
         required: true
 env:
-  MANIFEST: ""
+  MANIFEST: "repo init -u git://github.com/SHRP/platform_manifest_twrp_omni.git -b v3_9.0"
   # Recovery Manifest URL with -b branch
-  DT_LINK: ""
+  DT_LINK: "https://github.com/SHRP-Devices/device-samsung-a70q"
   # Your Device Tree Link
-  VENDOR: ""
+  VENDOR: "samsung"
   # Your Device's Vendor name as in used inside DT. Example: xiaomi, samsung, asus, etc.
-  CODENAME: ""
+  CODENAME: "a70q"
   # Your Device's Codename as in used inside DT." Example: nikel, phoenix, ginkgo, etc.
   KERNEL_LINK: ""
   # Kernel repo link with optional -b branch. Only for building kernel from source. Ignore if using prebuilt.
-  TARGET: ""
+  TARGET: "recoveryimage"
   # Set as recoveryimage (or bootimage if no recovery partition avaiable)
   FLAVOR: "eng"
   # eng by default, change the variable if you want userdebug
