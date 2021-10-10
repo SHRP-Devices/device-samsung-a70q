@@ -85,6 +85,9 @@ TARGET_KERNEL_HEADER_ARCH := arm64
 #TARGET_KERNEL_SOURCE := kernel/samsung/a70q
 #TARGET_KERNEL_CONFIG := a70q_defconfig
 
+# Extras
+TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
+
 # Platform
 TARGET_BOARD_PLATFORM := sdm710
 
