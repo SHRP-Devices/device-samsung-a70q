@@ -93,7 +93,7 @@ LZMA_RAMDISK_TARGETS := recovery
 RECOVERY_SDCARD_ON_DATA := true
 TARGET_RECOVERY_QCOM_RTC_FIX := true
 TARGET_RECOVERY_PIXEL_FORMAT := "RGBX_8888"
-TARGET_USE_CUSTOM_LUN_FILE_PATH := "/config/usb_gadget/g1/functions/mass_storage.0/lun.%d/file"
+#TARGET_USE_CUSTOM_LUN_FILE_PATH := "/config/usb_gadget/g1/functions/mass_storage.0/lun.%d/file"
 
 # Hack: prevent anti rollback
 PLATFORM_SECURITY_PATCH := 2099-12-31
@@ -117,6 +117,7 @@ TW_EXCLUDE_DEFAULT_USB_INIT := true
 TW_THEME := portrait_hdpi
 TW_USE_TOOLBOX := true
 TW_Y_OFFSET := 77
+TARGET_USE_CUSTOM_LUN_FILE_PATH := "/sys/kernel/config/usb_gadget/g1/functions/mass_storage.0/lun.%d/file"
 
 # SHRP specific build flags
 SHRP_PATH := device/samsung/a70q
