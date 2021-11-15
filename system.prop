@@ -1,0 +1,2 @@
+sys.usb.controller=13600000.dwc3
+ro.boot.bootdevice=bootdevice
