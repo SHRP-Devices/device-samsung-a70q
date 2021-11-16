@@ -138,6 +138,3 @@ SHRP_OTG := /usb_otg
 SHRP_FLASH := 1
 SHRP_REC := /dev/block/bootdevice/by-name/recovery
 SHRP_NO_SAR_AUTOMOUNT := true
-
-# Extras
-TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
