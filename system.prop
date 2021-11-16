@@ -1,4 +1,3 @@
-ro.display.series=Samsung A70
-ro.board.platform=sdm710
-sys.usb.controller=13600000.dwc3
-ro.boot.bootdevice=bootdevice
+sys.usb.controller=a600000.dwc3
+sys.usb.rndis.func.name=rndis_bam
+sys.usb.rmnet.func.name=rmnet_bam
