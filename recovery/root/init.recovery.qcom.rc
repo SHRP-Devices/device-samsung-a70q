@@ -33,3 +33,6 @@ on init
 on fs
     wait /dev/block/platform/soc/${ro.boot.bootdevice}
     symlink /dev/block/platform/soc/${ro.boot.bootdevice} /dev/block/bootdevice
+
+on property:sys.usb.config=mtp,adb
+    restart time_daemon
